@@ -1,0 +1,29 @@
+html{
+  min-height: 100%;
+}
+
+
+body {
+  background-color: chocolate;
+  min-height: 100%;
+}
+form{
+  padding: 20px;
+  margin-top: 60px;
+
+}
+form button, form h5{
+  margin: 20px 0;
+}
+
+.dropzone-container{
+  max-width: 700px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  border: solid black;
+  margin: 30px auto;
+  min-height: 250px;
+  align-items: center;
+  cursor: pointer;
+}
